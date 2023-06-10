@@ -1,10 +1,13 @@
 import "./App.css";
+import Charts from "./components/Charts";
+import Chats from "./components/Chats";
 
 function App() {
   return (
     <>
       <div>
-        <h1>React🚀</h1>
+        <Charts />
+        <Chats />
       </div>
     </>
   );
